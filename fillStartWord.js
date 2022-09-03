@@ -4,13 +4,13 @@ function fillStartWord(startWord, word) {
 
   function fillStartWord(startWord,word){
     if(word === null || word === undefined){
-        return console.log(undefined)
+        return undefined
     }
     else if(word.includes(startWord) == true){
-        return console.log(word)
+        return word
     }
     else{
-        return console.log(startWord+word)
+        return startWord+word
     }
 }
 }
